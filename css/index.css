@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,ol li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font: 14px/25px Helvetica, "Microsoft Yahei";
+}
+.header-top {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1200px;
+}
+.logo {
+  width: 192px;
+  height: 63px;
+  padding-top: 39px;
+  float: left;
+}
+.tool {
+  height: 77px;
+  width: 266px;
+  float: right;
+  padding-top: 35px;
+}
+.tool > img {
+  width: 32px;
+  height: 25px;
+  vertical-align: middle;
+}
+.tool .telnumber {
+  font-size: 20px;
+  color: #00978e;
+  display: inline-block;
+  width: 158px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  vertical-align: middle;
+}
+.tool a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.tool a:first-of-type {
+    margin-right: 14px
+}
+.tool .search {
+    width: 264px;
+    height: 28px;
+    margin-top: 12px;
+    border: 1px solid rgba(202,202,202,0.60);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.tool .search input {
+    height: 21px; 
+    border: none;
+    outline: none;
+    margin-left: 19px;
+    margin-top: 4px;
+    float:left
+}
+.tool .search button {
+    border: none;
+    background-color: #fff;
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.tool .search button img{
+    width: 20px;
+    height: 20px;
+}
+header nav {
+    height: 60px;
+    background-color: #00978E;
+    margin-top: 29px
+}
+header nav ul {
+    width: 1200px;
+    margin: 0 auto
+}
+header nav ul li {
+  float: left;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+header nav ul li:hover {
+    background-color: gold;
+} 
+header nav ul li a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+section.banner {
+    position: relative;
+}
+
+section.banner .banner-image img {
+    width: 1903px;
+}
+
+section.banner .banner-cover {
+    width: 1200px;
+    height: 566px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px
+}
+
+section.banner .banner-cover div[class*="arrow"] {
+    width: 56px;
+    height: 74px;
+    background-color: rgba(8,8,8,0.20);
+    position: absolute;
+    top: 50%;
+    margin-top: -65px;
+    border-radius: 10px;
+}
+
+section.banner .banner-cover .left-arrow {
+    left: 0
+}
+
+section.banner .banner-cover .right-arrow {
+    right: 0
+}
+
+section.banner .banner-cover h2 {
+    font-size: 60px;
+    color: #015E58;
+    width: 480px;
+    height: 79px;
+    position: absolute;
+    top: 132px;
+    left: 148px;
+    font-weight:normal;
+    display: block;
+    line-height: 79px;
+}
+section.banner .banner-cover .banner-form {
+    width: 120px;
+    height: 12px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -60px;
+}
+section.banner .banner-cover .banner-form ol {
+    overflow: hidden;
+}
+section.banner .banner-cover .banner-form ol li {
+    width: 20px;
+    height: 12px;
+    float: left;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.banner .banner-cover .banner-form ol li:first-child {
+    background-color: #00978E;
+    width: 30px;
+}
+
+section.banner .banner-cover .banner-form ol li:last-child {
+    margin-right: 0;
+}
