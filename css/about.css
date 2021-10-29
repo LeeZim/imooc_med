@@ -32,6 +32,168 @@ a {
 .header .nav ul li {
     font-size: 16px;
     margin-left: 20px;
-    color: #fff;
     display: inline-block;
 }
+
+.header .nav ul li a{
+    color: #fff
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .banner-image {
+    width: 1700px;
+    height: 800px;
+    margin: 0 auto
+}
+
+.banner .banner-cover,.banner-form {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.banner .banner-cover {
+    background-color: rgb(0, 0, 0, .5);
+    margin-left: -850px;
+    width: 1700px;
+    height: 100%;
+}
+
+.banner .banner-form {
+    width: 504px;
+    height: 400px;
+    left: 50%;
+    margin-left: -252px;
+    margin-top: 100px
+}
+
+.banner .banner-form input, textarea, button {
+    display: block;
+    background-color: rgb(0, 0, 0, .0);
+    border:2px solid #808080;
+    outline: none;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.banner .banner-form input[type="text"] {
+    width: 100%;
+    height: 36px;
+}
+
+.banner .banner-form textarea {
+    width: 100%;
+    height: 106px;
+    resize:none;
+}
+
+.banner .banner-form input:last-child {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.banner .banner-form input:last-child:active {
+    color: white
+}
+
+.about {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about .about-upper-half {
+    padding-top: 30px
+}
+
+.about .about-upper-half h2,p {
+    text-align: center;
+}
+
+.about .about-upper-half h2 {
+    font-size: 32px;
+}
+
+.about .about-upper-half p {
+    font-size: 14px;
+    color: gray;
+}
+
+.about .blueline {
+    background-color: #07cbc9;
+    width: 60px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+.about .about-lower-half {
+    overflow: hidden;
+    padding-top: 30px
+}
+
+.about .about-lower-half>div {
+    float: left
+}
+
+.about .about-lower-half-left {
+    width: 250px;
+    height: 464px;
+    overflow: visible;
+    z-index: 999;
+}
+
+.about .about-lower-half-left h2 {
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+.about .about-lower-half-left .aWordAboutUs {
+    width: 300px;
+    height: 195px;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: rgb(255,255,255, .5);
+    margin-top:20px;
+    position: relative;
+}
+.about .about-lower-half-left .aWordAboutUs p {
+    color: #000;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: left;
+    
+}
+
+.about .about-lower-half-left .aWordAboutUs button {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    background-color: #000;
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.about .about-lower-half-right {
+    float: right !important
+}
+
+.about .about-lower-half-right>div{
+    width: 270px;
+    padding: 40px 0;
+    margin-bottom: 30px;
+    border: 1px solid #07cbc9;
+    display: block;
+    text-align: center;
+}
+
+.about .about-lower-half-right b {
+    font-size: 28px;
+}
+

@@ -23,12 +23,12 @@
             <!-- 网页的导航条 -->
             <div class="nav">
                 <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>GALLERY</li>
-                    <li>FACULTY</li>
-                    <li>EVENTS</li>
-                    <li>CONTACT</li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">FACULTY</a></li>
+                    <li><a href="">EVENTS</a></li>
+                    <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -45,41 +45,60 @@
         <div class="banner-cover"></div>
 
         <!-- banner 表单 -->
-        <div class="banner-form"></div>
+        <div class="banner-form">
+            <input type="text" placeholder="your Name" />
+            <input type="text" placeholder="your Phone" />
+            <input type="text" placeholder="your Email" />
+            <textarea placeholder="Write Your Comment Here"></textarea>
+            <input type="submit" class="commitBtn" value="SEND MESSAGE" />
+        </div>
     </div>
 
     <!-- 网页的About区 -->
     <div class="about">
-        <h2>ABOUT</h2>
         <!-- About 上半部分 -->
         <div class="about-upper-half">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting<br/>industry. Lorem Ipsum has been the industry's standard dummy <br/>text ever since the 1500s.</p>
+            <h2>ABOUT</h2>
+            <div class="blueline"></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting<br/>industry. Lorem Ipsum has been the industry's standard dummy <br/>text ever since the 1500s.</p>  
         </div>
 
         <!-- About 下半部分 -->
         <div class="about-lower-half">
-            <b>A WORD<br/>ABOUT US</b>
-            <p>Praesent dignissim viverra est, sed bibendum ligula congue non. Sed ac nisl et felis gravida commodo? Suspendisse eget ullamcorper ipsum. Suspendisse diam amet.
-            </p>
-            <div>
-                <p>EXPLORE</p>
+            <div class="about-lower-half-left">
+                <h2>A WORD<br/>ABOUT US</h2>
+                <div class="aWordAboutUs">
+                    <p>Praesent dignissim viverra est, sed bibendum ligula congue non. Sed ac nisl et felis gravida commodo? Suspendisse eget ullamcorper ipsum. Suspendisse diam amet.
+                    </p>
+                    <button>EXPLORE</button>
+                </div>
+            </div>
+            <div class="about-lower-half-middle">
                 <img src="images/bb3.jpg" alt="">
-                <p>70000</p>
             </div>
-            <div>
-                <p>Faculty</p>
-                <img src="images/b2.jpg" alt="">
-                <b>Library</b>
+            <div class="about-lower-half-right">
+                <div>
+                    <b>70000</b>
+                    <div class="blueline"></div>
+                    <p>Students</p>
+                </div>
+                <div>
+                    <b>600</b>
+                    <div class="blueline"></div>
+                    <p>Faculty</p>
+                </div>
+            </div>
+            <!-- <img src="images/b2.jpg" alt="">
+            <b>Library</b>
                 <p>Library、Computer Lab、Conference Hall、Play Ground
                 </p>
-            </div>
             <div>
                 <p>EXPLORE</p>
                 <img src="images/b2.jpg" alt="">
                 <b>Library</b>
                 <p>Library、Computer Lab、Conference Hall、Play Ground
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 

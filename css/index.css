@@ -111,9 +111,14 @@ section.banner {
     position: relative;
 }
 
-section.banner .banner-image img {
+section.banner .banner-image {
     width: 1903px;
+    margin: 0 auto;
 }
+
+/* section.banner .banner-image img {
+    width: 1903px;
+} */
 
 section.banner .banner-cover {
     width: 1200px;
@@ -132,6 +137,7 @@ section.banner .banner-cover div[class*="arrow"] {
     top: 50%;
     margin-top: -65px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 section.banner .banner-cover .left-arrow {
@@ -182,4 +188,39 @@ section.banner .banner-cover .banner-form ol li:first-child {
 
 section.banner .banner-cover .banner-form ol li:last-child {
     margin-right: 0;
+}
+section.content .useful-links {
+    width: 910px;
+    padding: 71.3px 145px 97.7px 145px;
+    margin: 0 auto;
+}
+
+section.content .useful-links ul {
+    overflow: hidden;
+}
+
+section.content .useful-links ul li {
+    width: 106px;
+    height: 148px;
+    float:left;
+    margin-right: 54px;
+}
+
+section.content .useful-links ul li:last-child {
+    margin-right: 0;
+}
+
+section.content .useful-links ul li a img, span{
+    display: block;
+}
+
+section.content .useful-links ul li a span {
+    width: 80px;
+    height: 26px;
+    margin: 0 auto;
+    margin-top: 16px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    line-height: 26px;
 }
